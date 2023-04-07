@@ -2,7 +2,7 @@ name: Aliyun Signin
 
 on:
   schedule:
-    - cron: '40 16 * * *'
+    - cron: '00 02 * * *'
   workflow_dispatch:
 jobs:
   signin:
