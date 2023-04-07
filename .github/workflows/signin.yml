@@ -16,7 +16,7 @@ jobs:
           GP_TOKEN: ${{ secrets.GP_TOKEN}}
           PUSH_TYPES: ''
           DO_NOT_REWARD: 'true'
-          SERVERCHAN_SEND_KEY: 'SCT135881Tsii6bbqGmRP1hxovHTNb102q'
+          SERVERCHAN_SEND_KEY: ${{ secrets.SERVERCHAN_SEND_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
